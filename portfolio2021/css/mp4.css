@@ -1,0 +1,47 @@
+body {
+    background: red;
+}
+
+.background-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.background-cover img,
+.background-cover video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: none
+}
+
+
+.background-100vmin {
+    width: 100vmin;
+    height: 100vmin
+}
+
+.background-100vmin img,
+.background-100vmin video {
+    width: 100%;
+    height: 100%;
+    left: auto;
+    right: 0;
+    top: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+.background-align-rt {
+    background-position: right top
+}
